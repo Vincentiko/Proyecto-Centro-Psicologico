@@ -168,10 +168,13 @@
                             <input type="password" required minlength="6" name="password" id="contraseña-inicio-sesion"
                                 class="form-control" placeholder="*********">
                         </div>
-                        <div class="text-star">
+                        <div class="d-flex justify-content-between">
                             <a id="registrarse" data-bs-toggle="modal" data-bs-target="#registro-form"
                                 href="#">Registrarse</a>
+                            <a class="" id="contraseña-olvidada" data-bs-toggle="modal" data-bs-target="#registro-form"
+                                href="#">¿Has olvidado tu contraseña?</a>
                         </div>
+                        
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             <button type="submit" class="btn btn-primary">Confirmar</button>
@@ -237,7 +240,9 @@
                                 id="contraseña-registro-confirmacion" class="form-control" placeholder="*********">
                         </div>
                         <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             <button type="submit" class="btn btn-primary">Registrarse</button>
+
                         </div>
                     </form>
                 </div>
